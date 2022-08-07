@@ -2,8 +2,11 @@ project:
   type: book
 
 book:
-  title: "CleanCovidCountsBook"
-  author: "Jane Doe"
+  title: "COVID-19 Infections"
+  author:
+  - "Rex W. Douglass"
+  - "Thomas L. Scherer"
+  - "Erik A. Gartzke"
   date: "8/7/2022"
   chapters:
     - index.qmd
@@ -11,7 +14,7 @@ book:
     - summary.qmd
     - references.qmd
 
-bibliography: references.bib
+bibliography: cpas_covid_19.bib
 
 format:
   html:
